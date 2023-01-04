@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 3px solid gray;
+            padding: 1px 7px;
+        }
+        nav > ul{
+            display: flex;
+        }
+        nav ul li{
+            list-style: none;
+            padding: 0 9px;
+        }
+        li a{
+            text-decoration: none;
+            color: coral;
+        }
+        nav li:hover{
+            background-color: blueviolet;
+        }
+        nav li .io{
+            display: none;
+            position: absolute;
+            background-color: rgb(13, 128, 173);
+            padding-left: 3px;
+        }
+        nav li .io a{
+            color: black;
+            padding-left: 3px;
+        }
+        nav li:hover > .io{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com">Home</a></li>
+                <li><a href="prac.html">Property</a>
+                    <ul class="io">
+                        <li><a href="#">Gias</a></li>
+                        <li>
+                            <a href="#">Tour</a>
+                            <ul class="io">
+                                <li><a href="#">Shitakundo</a></li>
+                                <li><a href="#">Coxbazar</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sajek</a></li>
+                        <li><a href="#">Pahar</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.youtube.com">Contacts</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Mod</h1>
+    <!-- <audio src="light.mp3" controls></audio><br>
+    <video src="gym.mp4" width="230" controls></video><br>
+
+    <iframe width="260" height="300" src="https://www.youtube.com/embed/wgusNAwDSWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <form>
+        <fieldset>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Your Name"><br><br>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Your email"><br><br>
+            <label for="phone">Your Number</label>
+            <input type="number" id="phone" placeholder="Your Number">
+        </fieldset>
+        <fieldset>
+        <legend>
+            Pick Fruits
+        </legend>
+            <label for="mango">
+            <input type="radio" id="mango" name="fru">mangoes
+            </label><br>
+            <label for="apple"></label>
+            <input type="radio" id="apple" name="fru">apple
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            Pick biriyani
+        </legend>
+            <label for="kacchi">
+            <input type="checkbox" id="kacchi name="fru">kacchi
+            </label><br>
+            <label for="tehari"></label>
+            <input type="checkbox" id="tehari" name="fru">tehari<br>
+            <label for="lacci"></label>
+            <input type="checkbox" id="lacci" name="fru">lacchi
+                
+    </fieldset><br>
+
+    <input type="reset" name="reset">
+    <input type="submit" name="submit">
+    
+    </form><br>
+    <section>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nulla aspernatur delectus cupiditate animi quasi cum laboriosam aliquid placeat laborum!</p>
+        </article>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem nulla aspernatur delectus cupiditate animi quasi cum laboriosam aliquid placeat laborum!</p>
+        </article>
+    </section>
+
+    <table>
+        <caption>Student Shit</caption>
+        <thead>
+            <th>no.</th>
+            <th>name</th>
+            <th>roll</th>
+            <th>class</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>mojid</td>
+                <td>3</td>
+                <td>8</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>sajid</td>
+                <td>12</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>monir</td>
+                <td>6</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>sakib</td>
+                <td>7</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table><br>
+
+    <figure>
+    <img src="pv1.jpg" width="140" height="150">
+    <figcaption>Its a girl pic</figcaption>
+</figure><br>
+
+    <dialog open="">Its one of my port site</dialog>
+</body>
+</html>
